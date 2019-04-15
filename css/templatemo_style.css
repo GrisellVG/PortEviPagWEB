@@ -246,8 +246,8 @@ hr {
 }
 
 .main-header {
-  position: center;
-  width: 75%;
+  position: fixed;
+  width: 100%;
   margin: 0 auto;
   z-index: 1000;
   top: 0px;
