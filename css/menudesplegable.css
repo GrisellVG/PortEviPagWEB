@@ -4,7 +4,7 @@
 }
 .nav {
   margin:auto;
-  width:750px;
+  width: 750px;
   font-family:Arial,Helvetica, sans-serif;
 }
 ul{
@@ -12,14 +12,13 @@ ul{
 }
 .nav > li
 {
-
   float: right;
 }
 .nav li a {
   background-color:#ffffff;
   color:#000000;
   text-decoration:none;
-  padding: 10px 50px;
+  padding: 10px 35px;
   display:block;
 }
 .nav li a:hover {
@@ -37,6 +36,6 @@ ul{
   position:relative;
 }
 .nav li ul li ul {
-  right:-140px;
+  right:-110px;
   top:0px;
 }
