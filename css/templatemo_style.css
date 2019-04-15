@@ -248,7 +248,7 @@ hr {
 .main-header {
   position: fixed;
   width: 100%;
-  margin: 0 auto;
+  margin:  auto;
   z-index: 1000;
   top: 0px;
   -webkit-transition: all 150ms ease-in-out;

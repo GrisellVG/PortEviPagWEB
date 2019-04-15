@@ -11,13 +11,13 @@ ul{
   list-style:none;
 }
 .nav > li {
-  float:right;
+  float: right;
 }
 .nav li a {
   background-color:#ffffff;
   color:#000000;
   text-decoration:none;
-  padding: 10px 12px;
+  padding: 10px 80px;
   display:block;
 }
 .nav li a:hover {
