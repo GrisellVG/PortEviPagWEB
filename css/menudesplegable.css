@@ -1,0 +1,40 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+.nav {
+  margin:auto;
+  width:1200px;
+  font-family:Arial,Helvetica, sans-serif;
+}
+ul{
+  list-style:none;
+}
+.nav > li {
+  float:right;
+}
+.nav li a {
+  background-color:#ffffff;
+  color:#000000;
+  text-decoration:none;
+  padding: 10px 12px;
+  display:block;
+}
+.nav li a:hover {
+  background-color: rgba(#004fff, 0.92);
+}
+.nav li ul { /*Se Oculta el submenú*/
+  display:none;
+  position:absolute;
+  min-width: 140px;
+}
+.nav li:hover > ul {/*Mostrar el submenú*/
+  display:block;
+}
+.nav li ul li {
+  position:relative;
+}
+.nav li ul li ul {
+  right:-140px;
+  top:0px;
+}
