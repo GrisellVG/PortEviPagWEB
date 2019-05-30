@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title> Ejercicio 4. Condicionales</title>
+  </head>
+<body>
+  <p>Elabore un scrip que slicite el nombre de la persona y el tiempo que ésta aguanta sumergida en el agua,
+  posteriormente muestre un mensaje con su nombre indicando como está catalogado tomando en cuanta lo sguiente: </p>
+
+  <ul>
+  <li>
+    <p> si aguanta sumergido bajo el agua 1 minuto es NORMAL</p>
+  </li>
+
+  <li>
+    <p> si aguanta sumergido bajo el agua menos de 1 minuto tiene ASMA</p>
+  </li>
+  <li>
+    <p> si aguanta sumergido bajo el agua mas de 1 minuto es ACUAMAN</p>
+  </li>
+
+  </ul>
+
+  <script type="text/javascript">
+var nombre;
+var tiempo;
+
+
+nombre=prompt('¿Cuál es tu nombre?','');
+tiempo=prompt('¿Cuánto aguantas sumergido bajo el agua?','');
+
+if (tiempo==60)
+{
+  document.write(nombre + 'Eres una persona NORMAL')
+}
+else if (tiempo<60)
+{
+    document.write(nombre + 'Eres una persona con ASMA')
+}
+
+else (tiempo>60)
+{
+    document.write(nombre + 'Eres ACUAMAN')
+}
+
+
+  </script>
+</body>
+</html>

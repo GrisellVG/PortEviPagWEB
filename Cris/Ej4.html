@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 4. Estructuras condicionales</title>
+  </head>
+  <body>
+  <p>Ejercicio 4. Elabore un script que solicite el nombre de la persona y el tiempo que esta aguanta sumergida en el agua,
+  posteriormente muestre un mensaje con su nombre indicado como esta catalogado, tomando en cuenta lo siguiente:</p>
+  <ul>
+    <li>
+      <p>Si aguanta sumergido bajo el agua 1 minuto es Normal</p>
+    </li>
+    <li>
+      <p>Si aguanta sumergido bajo el agua menos de 1 minuto tiene Asma</p>
+    </li>
+    <li>
+      <p>Si aguanta sumergido bajo el agua más de 1 minuto es ACUAMAN</p>
+    </li>
+  </ul>
+  <script type="text/javascript">
+
+  var nombre, tiempo;
+
+  nombre=prompt('¿Cuál es tu nombre?','');
+  tiempo=prompt('¿Cuánto aguantas sumergido en el agua?','');
+
+    if (tiempo==60)
+    {
+      document.write(nombre + 'Eres una persona Normal');
+    }
+    else if (tiempo<60)
+    {
+      document.write(nombre + 'Eres una persona con ASMA');
+    }
+    else
+    {
+       document.write(nombre + 'Eres ACUAMAN');  
+    }
+  </script>
+  </body>
+</html>

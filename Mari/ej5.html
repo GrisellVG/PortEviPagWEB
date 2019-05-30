@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title> Ejercicio 5. Nivel de Desempeño</title>
+  </head>
+<body>
+  <p>Elabore un script que solicite el nombre de un alumno y 5 calificaciones, para determeinar cuál es su promedio y nivel
+      de desempeño en la clase de Programación Web. Para determinar el nivel de desempeño debera basarse en la siguiente información</p>
+
+  <ul>
+
+  <li>
+    <p> Promedio menor o igual a 60: "Desempeño Insuficiente"</p>
+  </li>
+
+  <li>
+    <p> Promedio igual a 70 pero menor 80: "Desempeño Suficiente"</p>
+  </li>
+
+  <li>
+    <p> Promedio igual a 80 pero menor que 90: "Desempeño Bueno"</p>
+  </li>
+
+  <li>
+    <p> Promedio igual a 90 pero menor que 100: "Desempeño Notable"</p>
+  </li>
+
+  <li>
+    <p> Promedio igual a 100: "Desempeño Excelente"</p>
+  </li>
+
+  </ul>
+
+  <script type="text/javascript">
+var nombre, cal1, cal2, cal3, cal4, cal5, promedio;
+
+
+nombre=prompt('¿Cuál es tu nombre?','');
+cal1=parseint(cal1=prompt('Ingresa la calificacion 1:',''));
+cal2=parseint(cal2=prompt('Ingresa la calificacion 2:',''));
+cal3=parseint(cal3=prompt('Ingresa la calificacion 3:',''));
+cal4=parseint(cal4=prompt('Ingresa la calificacion 4:',''));
+cal5=parseint(cal5=prompt('Ingresa la calificacion 5:',''));
+
+promedio = (cal1+cal2+cal3+cal4+cal5)/5;
+
+if (promedio<=60)
+{
+  document.write('Desempeño Insuficiente');
+}
+
+  </script>
+</body>
+</html>

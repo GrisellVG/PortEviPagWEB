@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 12. Multiplicacion de Sumas Sucesivas</title>
+  </head>
+  <body>
+    <ul>
+      <p>Elabore un programa que dado un numero solicite esa cantidad de numeros enteros, obtenga la suma y la cuenta de los
+      numeros pares e impares asi como el promedio de los mismos</p>
+    </ul>
+  </body>
+  <center>
+  <script type="text/javascript">
+    var resultado = 0, par = 0, ipar = 0, prom, rpar;
+    var numero1=parseInt(valor=prompt('¿Ingrese un numero?',''));
+    var numeros = [numero1];
+    for (var i = 0; i <= numero1 -1; i++) {
+          numeros[i]=parseInt(valor=prompt('¿Ingrese un numero?',''));
+          resultado = numeros[i] + resultado;
+      rpar = numeros[i] % 2;
+      if(rpar == 0){
+        par = par + 1;
+      }
+      else{
+        ipar = ipar + 1;
+      }
+    }
+    prom = resultado / numero1;
+
+    document.write("La suma de los numeros es: " + resultado +"<br> numeros pares: " + par + "<br> numeros impares: " + ipar +
+      "<br> El promedio de los numeros es de: " + prom);
+
+  </script>
+  </center>
+</html>

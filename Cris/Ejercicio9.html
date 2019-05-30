@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 9.- Serie de suceción Ulan</title>
+  </head>
+  <body >
+    <p>Genere un script que lea un numero entero positivo y que obtenga e imprima la sucesion de Ulan,
+       se llama sucesion de Ulan en honor del maematico S. ULAN.</p>
+       <center>
+<p>A) Comienza con cualquier nume entero positivo.</p>
+<p>B) Si es par , dividalo entre 2,si es impar multipliquelo por 3 y agreguele uno.</p>
+<p>C) Obtenga entero sucesivamente repitiendo el proceso.</p>
+
+
+    <script type="text/javascript">
+      var valor,contador;
+        contador=0;
+        valor=parseInt(valor=prompt('Ingresa un numero',''));
+        while (valor!=1){
+          if (valor%2==0) {
+          valor=valor/2;
+          }
+        else {
+        valor=(valor*3)+1;
+           }
+document.write('<li type="1">'+valor+' <br>')
+}
+    </script>
+
+    <br>
+    <img src="C:\Users\telmex\Desktop\unidad 4\ulam.jpg" width="20%" height="20%">
+  </center>
+  </body>
+</html>

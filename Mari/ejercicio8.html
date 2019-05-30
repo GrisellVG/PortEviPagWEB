@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ejercicio 8.</title>
+  <style type="text/css">
+    p {
+      font-family: verdana;
+      color: #070f58;
+      font-size: 15px;
+      text-align: justify;
+    }
+
+    li {
+      font-family: verdana;
+      color: #070f58;
+      font-size: 15px;
+      text-align: justify;
+    }
+
+    img {
+      width: 500px;
+      height: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <p>Realice un script qu lea un numero entero positivo y obtenga eh imprima la sucesion de ULAN, se llama
+  sucesion de ulan en honor al matematico S.Ulan, los primeros 100 numeros de ULAN.
+   </p>
+  <ul>
+    <li>A).- Comienza con cualquier numero entero positivo.</li>
+    <li>B).- Si es par dividalo entre 2, si es impar multipliquelo por 3 y agreguele 1.</li>
+    <li>C).- Obtenga enteros sucesivamente repitiendo el proceso.</li>
+  </ul>
+  <script type="text/javascript">
+    var numero, cadena ="",identificador;
+    numero = parseInt(salario = prompt('Ingrese un numero entero'));
+    for (var i = 0; i < 10000; i++) {
+      if (numero % 2 == 0) {
+        numero=numero/2;
+      }else{
+        numero=(numero*3)+1
+      }
+      identificador=i+1;
+      if (numero==1) {
+        i=110000;
+      }
+
+    cadena=cadena+identificador+".- "+numero+"<br>";
+    }
+    document.write('<p>'+cadena+'</p>');
+  </script>
+
+</body>
+
+</html>

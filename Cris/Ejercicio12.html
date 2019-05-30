@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 12. Multiplicacion de Sumas Sucesivas</title>
+  </head>
+  <body>
+    <ul>
+      <p>Elaborar un script que pida 2 numeros y los multiplique sucesivamente por medio se sumas sucesivas</p>
+    </ul>
+  </body>
+  <script type="text/javascript">
+    var resultado = 0;
+    var numero1=parseInt(valor=prompt('¿Ingrese un numero?',''));
+    var numero2=parseInt(valor=prompt('¿Ingrese un numero?',''));
+    for (var i = 0; i < numero2; i++) {
+      resultado = numero1 + resultado;
+    }
+    document.write(resultado);
+  </script>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ejercicio 8.</title>
+  <style type="text/css">
+    p {
+      font-family: verdana;
+      color: #070f58;
+      font-size: 15px;
+      text-align: justify;
+    }
+
+    li {
+      font-family: verdana;
+      color: #070f58;
+      font-size: 15px;
+      text-align: justify;
+    }
+
+    img {
+      width: 500px;
+      height: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <p>En un estadio se tienen 5 diferentes tipos de localidades las cuales se identifican por una clave numerica que es un valor
+    comprendido entre 1 y 5. Construya un script que:
+   </p>
+  <ul>
+    <li>A).- lea los precios.</li>
+    <li>B).- lea los datos de las ventas del boleto.</li>
+    <li>C).- imprima para cada venta la clave, la cantidad y el importe total de los importes vendidos en esa venta.</li>
+    <li>D).- Calcule eh imprima la cantidad de boletos vendidos de cada tipo.</li>
+    <li>D).- Calcule eh imprima la recaudacion total del estadio.</li>
+  </ul>
+  <script type="text/javascript">
+    var numero, cadena ="",identificador;
+    numero = parseInt(salario = prompt('Ingrese un numero entero'));
+    for (var i = 1; i > 0; i++) {
+      if (numero % 2 == 0) {
+        numero=numero/2;
+      }else{
+        numero=(numero*3)+1
+      }
+      identificador=i+1;
+      if (numero==1) {
+        i=0;
+      }
+
+    cadena=cadena+identificador+".- "+numero+"<br>";
+    }
+    document.write('<p>'+cadena+'</p>');
+  </script>
+
+</body>
+
+</html>

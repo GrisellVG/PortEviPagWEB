@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ejercicio 8.</title>
+  <style type="text/css">
+    p {
+      font-family: verdana;
+      color: #070f58;
+      font-size: 15px;
+      text-align: justify;
+    }
+
+    li {
+      font-family: verdana;
+      color: #070f58;
+      font-size: 15px;
+      text-align: justify;
+    }
+
+    img {
+      width: 500px;
+      height: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <p>Elabore un programa que dado un numero solicite esa cantidad de numeros enteros, obtenga la suma y la cuenta de los numeros
+    pares eh impares asi como el promedio de los mismos
+   </p>
+  <script type="text/javascript">
+    var numero,datos, par=0,impar=0,suma=0;
+    numero = parseInt(prompt('Ingrese una cantidad de numeros'));
+    for (var i = 0; i < numero; i++) {
+      datos = parseInt(prompt('Ingrese un numero entero'));
+      suma=suma+datos;
+      if (datos % 2 == 0) {
+        par=par+1;
+      }else {
+        impar=impar+1;
+      }
+    }
+    var promedio;
+    promedio=suma/numero;
+    document.write('<p>Suma de los '+numero+' es igual a:'+suma+'<br>De los numero ingresados '+par +' son pares y '+impar +' son impares<br>El promedio de los numeros ingresados es '+promedio +'</p>');
+  </script>
+
+</body>
+
+</html>

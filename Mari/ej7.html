@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title> Ejercicio 7. Calculo de áreas usando Switch</title>
+  </head>
+<body>
+  <p>Elabore un script para calcular el area de las siguientes figuras geométricas </p>
+
+  <ul>
+
+  <li><p> Triangulos</p></li>
+  <li><p> Cuadrados</p> </li>
+  <li><p> Rectángulo</p></li>
+  <li><p> Trapecio</p></li>
+  <li><p> Círculos</p></li>
+
+  </ul>
+
+  <script type="text/javascript">
+var area, opc, base, baseM, altura, lado, radio ;
+
+opc=prompt('De cual de las siguientes figuras quiere calcular el area? \n1.Triángulos \n2.Cuadrados \n3.Rectángulos \n4.Trapecio \n5.Círculos ','');
+opc=parseint(opc);
+
+switch (opc) {
+  case 1:
+    base=parseint(base=prompt('¿Cual es la base del triangulo?','');
+   altura=parseint(altura=prompt('¿Cual es la altura del triangulo?','');
+
+  area= (base*altura)/2;
+  document.write('El área del triangulo es', ''+ area);
+  break;
+
+  case 2:
+
+    lado=parseint(lado=prompt('¿Cual es la longitud del lado del cuadrado?','');
+    area= lado*lado;
+    document.write('El área del cuadrado es', ''+ area);
+  break;
+
+  case 3:
+
+    base=parseint(base=prompt('¿Cual es la base del rectangulo?','');
+    altura=parseint(altura=prompt('¿Cual es la altura del rectangulo?','');
+    area= base * altura;
+    document.write('El área del rectangulo es', ''+ area);
+    break;
+
+  case 4:
+      baseM=parseint(baseM=prompt('¿Cual es la base del Trapecio?','');
+      base=parseint(base=prompt('¿Cual es la base del Trapecio?','');
+      altura=parseint(altura=prompt('¿Cual es la altura del Trapecio?','');
+      area= (baseM+base)*altura/2;
+      document.write('El área del Trapecio es', ''+ area);
+      break;
+
+  case 5:
+   radio=parseint(radio=prompt('¿Cuánto mide el radio del círculo?','');
+   area= (3.1416*(radio^2));
+   document.write('El área del círculo es', ''+ area);
+   break;
+
+  default:
+
+}
+
+
+
+  </script>
+</body>
+</html>

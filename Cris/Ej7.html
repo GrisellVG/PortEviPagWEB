@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 7. Condicionales</title>
+  </head>
+  <body>
+  <p>Ejercicio 7. Elabore un script para calcular el área de las siguientes figuras geometricas</p>
+  <ul>
+    <li>Triángulo</li>
+    <li>Cuadrado</li>
+    <li>Rectángulo</li>
+    <li>Trapecio</li>
+    <li>Círculo</li>
+  </ul>
+  <script type="text/javascript">
+var area, opc, base, altura, lado, baseM, radio;
+opc=prompt('¿Qué área deseas calcular?'+'\n1. Triángulo \2. Cuadrado \3. Rectángulo \4. Trapecio \5. Círculo');
+opc=parseInt(opc);
+
+switch (opc) {
+  case 1:
+  base=parseInt(base=prompt('Base del Triángulo',''));
+  altura=parseInt(altura=prompt('Altura del Triángulo',''));
+  area=base*altura/2;
+  document.write("<br> El área del Triángulo es:" + area)
+  break;
+  case 2:
+  lado=parseInt(lado=prompt('Longitud del lado:'));
+  area=lado*lado;
+  document.write("<br> El área del Cuadrado es:" + area)
+    break;
+  case 3:
+  base=parseInt(base=prompt('Base del Rectángulo',''));
+  altura=parseInt(altura=prompt('Altura del Rectángulo',''));
+  area=base*
+  default:
+
+}
+  </script>
+  </body>
+</html>

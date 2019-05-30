@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <nav>
+        <ul>
+          <li><a class="boton redondo" href="Ejercicio1.html">Ejercicio1</a></li>
+          <li><a class="boton redondo" href="Ejercicio2.html">Ejercicio2</a></li>
+          <li><a class="boton redondo" href="Ejercicio3.html">Ejercicio3</a></li>
+          <li><a class="boton redondo" href="Ejercicio4.html">Ejercicio4</a></li>
+          <li><a class="boton redondo" href="Ejercicio5.html">Ejercicio5</a></li>
+          <li><a class="boton redondo" href="Ejercicio6.html">Ejercicio6</a></li>
+          <li><a class="boton redondo" href="Ejercicio7.html">Ejercicio7</a></li>
+          <li><a class="boton redondo" href="Ejercicio8.html">Ejercicio8</a></li>
+          <li><a class="boton redondo" href="Ejercicio9.html">Ejercicio9</a></li>
+          <li><a class="boton redondo" href="Ejercicio10.html">Ejercicio10</a></li>
+          <li><a class="boton redondo" href="Ejercicio11.html">Ejercicio11</a></li>
+          <li><a class="boton redondo" href="Ejercicio12.html">Ejercicio12</a></li>
+          <li><a class="boton redondo" href="Examen.html">Examen</a></li>
+        </ul>
+      </nav>
+    <meta charset="utf-8">
+    <title>Ejercicio 12. Multiplicacion de Sumas Sucesivas</title>
+      <link rel="stylesheet" href="css/estilo12.css">
+  </head>
+  <body>
+    <ul>
+      <br>
+      <br>
+      <p>Elaborar un script que pida 2 numeros y los multiplique sucesivamente por medio se sumas sucesivas</p>
+    </ul>
+  </body>
+  <script type="text/javascript">
+    var resultado = 0;
+    var numero1=parseInt(valor=prompt('¿Ingrese un numero?',''));
+    var numero2=parseInt(valor=prompt('¿Ingrese un numero?',''));
+    for (var i = 0; i < numero2; i++) {
+      resultado = numero1 + resultado;
+    }
+    document.write('<br>');
+    document.write('<br>');
+    document.write(resultado);
+    document.write('<br>');
+    document.write('<br>');
+    document.write('<img class src="imagenes/Conversión.jpg" width="500"  height="300" align="center" imagen.align="middle">');
+  </script>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title> Ejercicio 5. Comdicionales</title>
+  </head>
+<body>
+  <p>Elabore un script que calcule el total a pagar por motivo de horas extras, para lo cual
+    se debera solicitar el nombre del empleado, el salario diario y el número de horas extras,
+    para el cálculo de estás dederá considerar lo siguiente</p>
+
+  <ul>
+
+  <li>
+    <p> Las primeras 9 horas se pagan dobles.</p>
+  </li>
+
+  <li>
+    <p> A partir de la hora 10 se pagan triples.</p>
+  </li>
+
+  </ul>
+
+  <script type="text/javascript">
+var nombre, horast, horasb, horase, saldiario, extra, salariofin;
+
+
+nombre=prompt('¿Cuál es tu nombre?','');
+horast=parseint(horast=prompt('Ingresa tus horas trabajadas:',''));
+saldiario=parseint(salarioph=prompt('Ingresa tu salario diario:',''));
+
+horase = (horasb - horast);
+
+if (horase>=10)
+{
+  pagodoble=((horase-9)*)
+  pagotriple= ((saldiario/8)*3*);
+  salariofin=(saldiario + extra)
+
+  document.write('A partir de las 10 horas se pagan triple ');
+  document.write('El total a pagar por sus horas extras es de: ');
+  document.write(extra);
+  document.write('Su salario total seria de: ');
+  document.write(salariofin);
+
+}
+
+else if (horase<=9) {
+  extra= ((saldiario/8)*2);
+  salariofin=(saldiario + extra)
+  document.write('Las primeras 9 horas se pagan dobles');
+  document.write('El total a pagar por sus horas extras es de: ');
+  document.write(extra);
+  document.write('Su salario total seria de: ');
+  document.write(salariofin);
+}
+
+
+  </script>
+</body>
+</html>
