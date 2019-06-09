@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <center>
+ <title>AREA DE FIGURAS GEOMETRICAS</title>
+ <style type="text/css">
+  #areaResultado{
+   width: 150pt;
+   height: 14pt;
+   margin-top: 5px;
+  }
+ </style>
+</head>
+<body bgcolor="rgba(214, 29, 168, 0.63)">
+  <h3>Ejercicio 7. Elabore un script para calcular el área de las siguientes figuras geometricas</h3>
+  <ul>
+    <p>Triángulo</p>
+    <p>Cuadrado</p>
+    <p>Rectángulo</p>
+    <p>Trapecio</p>
+    <p>Círculo</p>
+  </ul>
+
+ <h3>Área de un triángulo </h3>
+
+ <input type="number" id="base" placeholder="Base">
+ <input type="number" id="altura" placeholder="Altura">
+ <button onclick="obtenerArea()">Calcular área</button>
+ <br><br>
+ <label>Área: </label>
+ <div id="areaResultado">
+ </div>
+ <script>
+  function obtenerArea(){
+   var areaResultado = document.getElementById("areaResultado");
+   var b = parseInt(document.getElementById("base").value);
+   var h = parseInt(document.getElementById("altura").value);
+
+   var area = (b * h) / 2;
+
+   areaResultado.innerHTML = "" + area;
+  }
+ </script>
+ <h3>Área de un cuadrado</h3>
+
+ <input type="number" id="lado" placeholder="Lado">
+
+ <button onclick="obtenerArea()">Calcular área</button>
+ <br><br>
+ <label>Área: </label>
+ <div id="areaResultado">
+ </div>
+ <script>
+  function obtenerArea(){
+   var areaResultado = document.getElementById("areaResultado");
+   var b = parseInt(document.getElementById("Lado").value);
+
+
+   var area = (b * b);
+
+   areaResultado.innerHTML = "" + area;
+  }
+ </script>
+
+ <h3>Área de un rectangulo</h3>
+
+ <input type="number" id="lado" placeholder="Lado">
+ <input type="number" id="altura" placeholder="Altura">
+ <button onclick="obtenerArea()">Calcular área</button>
+ <br><br>
+ <label>Área: </label>
+ <div id="areaResultado">
+ </div>
+ <script>
+  function obtenerArea(){
+   var areaResultado = document.getElementById("areaResultado");
+   var b = parseInt(document.getElementById("Lado").value);
+   var h = parseInt(document.getElementById("Altura").value)
+
+   var area = (b * h);
+
+   areaResultado.innerHTML = "" + area;
+  }
+ </script>
+ <h3>Área de un trapecio</h3>
+
+ <input type="number" id="basem" placeholder="Base mayor">
+ <input type="number" id="base" placeholder="Base menor">
+ <input type="number" id="altura" placeholder="Altura">
+ <button onclick="obtenerArea()">Calcular área</button>
+ <br><br>
+ <label>Área: </label>
+ <div id="areaResultado">
+ </div>
+ <script>
+  function obtenerArea(){
+   var areaResultado = document.getElementById("areaResultado");
+   var bm = parseInt(document.getElementById("Base mayor").value);
+   var b = parseInt(document.getElementById("Base menor").value);
+   var h = parseInt(document.getElementById("Altura").value)
+
+   var area = ((bm + b) * h)/2 ;
+
+   areaResultado.innerHTML = "" + area;
+  }
+ </script>
+
+ <h3>Área de un circulo</h3>
+
+ <input type="number" id="radio" placeholder="Radio">
+
+ <button onclick="obtenerArea()">Calcular área</button>
+ <br><br>
+ <label>Área: </label>
+ <div id="areaResultado">
+ </div>
+ <script>
+  function obtenerArea(){
+   var areaResultado = document.getElementById("areaResultado");
+   var r = parseInt(document.getElementById("Radio").value);
+
+
+   var area = (3.1616)*(r*r) ;
+
+   areaResultado.innerHTML = "" + area;
+  }
+ </script>
+</center>
+</body>
+</html>

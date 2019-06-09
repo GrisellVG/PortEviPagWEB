@@ -1,0 +1,252 @@
+body
+{
+  background-color: rgba(235, 109, 215, 0.85);
+  margin: 10px auto;
+  width: 80%
+}
+header>h1
+{
+letter-spacing: 5px;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+text-shadow: rgba(13, 233, 174, 0.75) 6px 6px 8px;
+}
+.logo-center
+{
+  float: none;
+  padding: 50px 0px 0px 20px; /*superior, derecho, inferior, izquierdo*/
+  width: 403px;
+  height: 54px;
+}
+.logo-right
+{
+  text-align: center;
+  padding: 20px 20px 0px 0px;
+  width: 200px;
+  height: 250px;
+}
+
+header
+{
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(163, 67, 203);
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 25px 25px 0px 0px;
+  border-style: none;
+}
+
+.contenedor
+
+{
+  padding: 10px 20px 10px 20px;
+  background: rgba(180, 106, 235, 0.9);
+  border-radius: 2em; /*redonda en borde*/
+  box-shadow: 0px 5px 3px rgba( 0, 0, 0, .4);
+}
+
+nav
+
+{
+display: block;
+width: 100%;
+text-align: center;
+}
+
+nav ul
+
+{
+list-style: none;
+}
+
+nav li
+
+{
+display: inline-block;
+margin-right: 2px;
+margin-top: 0.2em;
+}
+.boton
+
+{
+  background-color: rgb(246, 66, 174);
+  color: rgb(51, 47, 241);
+  display: inline-block;
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 140px;
+  text-decoration: none;
+  box-shadow: 0px 3px 5px #373c3c;
+}
+
+.boton.redondo
+
+{
+  border-radius: 30px;
+}
+
+.boton.rosap
+
+{
+  background-color: rgb(190, 237, 52);
+  box-shadow: 0px 3px 5px rgb(189, 103, 145);
+}
+
+.boton:hover
+
+{
+  background-color: rgb(180, 146, 244);
+  box-shadow: 0px 3px 5px rgb(149, 69, 238);
+  padding-top: 7px;
+  color: #fff;
+}
+section
+{
+  float: left;
+	width: 70%;
+	text-align:center;
+	margin-top: 10px;
+}
+
+article
+{
+  
+  vertical-align: center;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #72aceb;
+
+}
+
+
+aside
+{
+  float: right;
+	width: 30%;
+	text-align: justify;
+	margin-top: 0px;
+}
+
+blockquote
+
+{
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #630cc4;
+}
+
+footer
+
+{
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(163, 67, 203);
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 0px 0px 25px 25px;
+  border-style: none;
+}
+
+.izquierda
+
+{
+  float: left;
+}
+
+.derecha
+
+{
+  float: right;
+  padding-right: 20px;
+}
+
+footer>p
+
+{
+  text-align: center;
+  color: rgb(95, 176, 251);
+  font-size: 10px;
+}
+
+.botonredes
+
+{
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  background-color: rgb(84, 152, 242);
+  border-radius: 100%;
+}
+
+.botonredes img
+
+{
+  width: 15px;
+  height: 15px;
+}
+
+.botonredes:hover
+{
+background-color:rgb(186, 80, 230);
+border-radius: 100%;
+}
+
+.enlace-footer
+{
+  font-size: 10px;
+  color: rgb(241, 102, 221);
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+.enlace-footer:hover
+
+{
+  color: rgb(115, 129, 233);
+  text-shadow: 0px 0px 5px rgb(77, 191, 89);
+  text-decoration: underline;
+
+}
+
+table
+{
+  width: 90%;
+  margin:auto;
+}
+th.titulo
+{
+	height: 50px;
+}
+td.center
+{
+	text-align: center;
+  vertical-align: middle;
+}
+td
+{
+  padding: 5px;
+}
+tr:nth-child(odd)
+{
+  background-color:rgb(164, 114, 246);
+}
+tr:nth-child(even)
+{
+  background-color:rgba(244, 234, 249, 0.76);
+}
+
+.centrado{
+	margin:10px auto;
+	display:block;
+    }

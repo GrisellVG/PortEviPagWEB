@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Playball');
+body
+{
+  background-color: rgb(255, 255, 255);
+  margin: 10px auto;
+  width: 85%;
+font-family: 'Playfair Display', serif;
+}
+header>h1
+{
+  letter-spacing: 1px; /*Espacio entre letras*/
+  text-transform: uppercase; /*Transformacion de texto a mayusculas*/
+  font-weight: bold; /*Fuente en negritas*/
+  text-align: center; /*Alineacion del texto*/
+  text-shadow: rgb(126, 8, 133) 6px 6px 8px; /*Los tres numero de distancia horizontal, vertical y difuminado de la sombra*/
+}
+.logo-left
+{
+  float: left;
+  padding: 20px 0px 0px 20px;/*Superior, derecho, inferior, izquierdo*/
+  width: 280px;
+  height:120px;
+}
+.logo-right
+{
+  float: right;
+  padding: 20px 20px 0px 20px;/*Superior, derecho, inferior, izquierdo*/
+  width: 120px;
+  height: 120px;
+}
+header
+{
+  width: 100%; /*establecemos que el header ocupe el 100% del documento*/
+  overflow: hidden;
+  background-color: rgb(245, 176, 191);/*Segundo Cuadro*/
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 25px 25px 0px 0px;/*Superior, derecho, inferior, izquierdo*/
+  border-style: none;
+}
+.contenedor
+{
+  padding: 10px 20px 10px 20px ;
+  background: rgb(255, 255, 255);/*Pimer cuadro*/
+  border-radius: 2em;/*Superior, derecho, inferior, izquierdo*/
+  box-shadow: 0px 5px 3px rgba(0,0,0,.4)
+}
+section
+{
+  float: left;
+  width: 70%;
+  text-align: justify;
+  margin-top: 10px;
+}
+nav
+{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+nav ul
+{
+  list-style: none;
+}
+nav li
+{
+  display: inline-block;
+  margin-right: 2px;
+  margin-top: 0.2em;
+}
+article
+{
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(126, 8, 133);
+}
+.boton
+{
+  background-color: rgb(245, 176, 191); /*Boton*/
+  color: rgb(0, 0, 0); /*Letra de los botones*/
+  display: inline-block;
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 140px;
+  text-decoration: none;
+  box-shadow: 0px 3px 5px #0e4b4f; /*Sombra del boton*/
+}
+.boton.redondo
+{
+  border-radius: 30px;
+}
+.boton.Fiusha
+{
+  background-color: rgb(244, 166, 243);
+  box-shadow: 0px 3px 5px rgb(149, 18, 140);
+}
+.boton:hover
+{
+  background-color: rgb(120, 29, 191);
+  box-shadow: 0px 03px 5px rgb(230, 11, 31);
+  padding-top: 7px;
+  color: rgb(163, 69, 196);
+}
+aside
+{
+  float: right;
+  width: 30%;
+  text-align: justify;
+  margin-top: 0px;
+}
+blockquote
+{
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:  rgb(126, 8, 133);
+}
+footer
+{
+  width: 100%; /*establecemos que el header ocupe el 100% del documento*/
+  overflow: hidden;
+  background-color: rgb(245, 176, 191);
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 0px 0px 25px 25px;/*Superior, derecho, inferior, izquierdo*/
+  border-style: none;
+}
+.izquierda
+{
+  float: left;
+}
+.derecha
+{
+  float: right;
+  padding-right: 35px;
+}
+footer>p
+{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+}
+.enlace-footer
+{
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding-right: 5px;
+  text-decoration: none;
+}
+.enlace-footer:hover
+{
+  color: rgb(126, 8, 133));
+  text-shadow: 0px 0px 5px rgb(126, 8, 133);
+  text-decoration: underline;
+}
+.botonredes
+{
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  background-color: rgb(126, 8, 133);
+  border-radius: 100%;
+}
+.botonredes img
+{
+  width: 15px;
+  height: 15px;
+}

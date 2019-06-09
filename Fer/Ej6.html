@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 6. Condicionales</title>
+  </head>
+  <body bgcolor="blue">
+  <p>Ejercicio 6. Elabore un script que calcule el total a pagar por motivo de horas extras, para lo cual deberá solicitar el nombre del empleado,
+  el salario diario y el número de horas extras, para el cálculo de estás deberá considerar lo siguiente:</p>
+  <ul>
+    <li>
+      <p>Las primeras 9 horas se pagan dobles.</p>
+    </li>
+    <li>
+      <p>A partir de la hora 10 se pagan triple.</p>
+    </li>
+  </ul>
+  <script type="text/javascript">
+
+  var nombre, salario, horasextras;
+
+  nombre=prompt('¿Cuál es tu nombre?','');
+  salario=prompt('¿Cuánto ganas diario?','');
+  horasextras=prompt('¿Cuantas horas extras trabajaste?','')
+
+    if (horasextras<=9)
+    {
+      document.write(nombre + 'Tu pago por hora extra será:' + (salario/8)*2);
+    }
+    else if (horasextras>10)
+    {
+       document.write(nombre + 'Tu pago hora extra será:' + (salario/8)*3);
+    }
+  </script>
+  </body>
+</html>

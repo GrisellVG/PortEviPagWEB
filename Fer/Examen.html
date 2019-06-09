@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es"  dir="itr">
+<head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="unidad3/estiloprincipal.css">
+  <body bgcolor="red">
+
+ <title> Examen </title>
+ </head>
+ <center>
+ <p>La empresa COCA COLA Company solicita un sistema que determine los dias de vacaciones
+   a los que tienen derecho un trabajador, tomando en cuenta las siguientes caracteristicas.
+ </p>
+ </center>
+ <p>
+   Existen tres departamentos dentro de la empresa con su respectiva clave.
+ </p>
+ <ul>
+   <li>
+     <p>1.- Departamento de Atencion al cliente <b>(Clave 1)</b></p>
+     </li>
+     <li><p>2.- Departamento de Logistica <b>(Clave 2)</b></p></li>
+     <li><p>3.- Gerencia <b>(Clave 3)</b></p></li>
+ </ul>
+ <p>
+   Trabajadores con Clave 1 <b>(Atencion al cliente)</b>
+   <ul>
+     <li>
+       Con 1 año de servicio, reciben 6 dias de vacaciones
+     </li>
+     <li>
+       Con 2 a 6 años de servicio, reciben 14 dias de vacaciones
+     </li>
+     <li>
+       Apartir de 7 años de servicio reciben 20 días de vacaciones
+     </li>
+   </ul>
+ </p>
+
+<script type="text/javascript">
+var nombre, clave_dept, antiguedad;
+
+nombre=prompt('¿Cúal es tu nombre?','');
+clave_dept=prompt('¿Cúal es tu clave de departamento?','');
+antiguedad=prompt('¿Cuanto tiempo llevas trabajando?','');
+
+if (clave_dept==1)
+{
+if (antiguedad==1)
+{
+  document.write(nombre + ' Tienes 6 dias de vacaciones');
+}
+else if (antiguedad>=2 && antiguedad <=6 )
+{
+  document.write(nombre+' Tienes 14 dias de vacaciones');
+}
+else {
+  document.write(nombre+' Tienes 20 dias de vacaciones');
+}
+}
+if (clave_dept==2)
+{
+if (antiguedad==1)
+{
+  document.write(nombre + ' Tienes 7 dias de vacaciones');
+}
+else if (antiguedad>=2 && antiguedad <=6 )
+{
+  document.write(nombre+' Tienes 15 dias de vacaciones');
+}
+else {
+  document.write(nombre+' Tienes 22 dias de vacaciones');
+}
+}
+if (clave_dept==3)
+{
+if (antiguedad==1)
+{
+  document.write(nombre + ' Tienes 10 dias de vacaciones');
+}
+else if (antiguedad>=2 && antiguedad <=6 )
+{
+  document.write(nombre+' Tienes 20 dias de vacaciones');
+}
+else {
+  document.write(nombre+' Tienes 30 dias de vacaciones');
+}
+}
+</script>
+
+ </body>
+ </html>

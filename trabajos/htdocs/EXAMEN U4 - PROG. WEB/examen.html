@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+   <meta charset="UTF-8">
+   <title> .:: PROGRAMACIÓN WEB  ::. </title>
+   <link rel="stylesheet" href="css/estiloprincipal.css">
+   <link rel="stylesheet" href="css/slider.css">
+   <link rel="stylesheet" href="css/detalles.css">
+
+ </head>
+ <body>
+ <div class="contenedor">
+<header>
+ <img class="centrado" src="imagenes/bienvenidos.png" >
+
+<div class="slider">
+ <ul>
+
+ </ul>
+</div>
+</header>
+<nav>
+ <ul>
+
+   <li><a class="boton redondo " href="examen.html">EXAMEN</a></li>
+
+ </ul>
+</nav>
+<section>
+ <article >
+   <h1> PROGRAMACIÓN WEB - UNIDAD 4 </h1>
+
+   <p>Elabore una aplicacion web que calcule la nomina de un trabajador por lo que deberá
+      solicitar el nombre completo el salario diario los dias trabajados y año de ingreso.</p>
+   <p>Primero se deberá indicar el tipo de nomina:</p>
+   <p>Si es semanal, quincenal o mensual posteriormente calcule lo siguiente:</p>
+
+   <ol font color="white" face="arial"align="left">
+         <p>PERCEPCIONES</p>
+         <p>1.-"Sueldo". Para ese calculo debe de considerar lo siguiente:</p>
+         <p>--- Si el trabajador tuvo faltas justificadas no se le descuenta nada.</p>
+         <p>--- Si el trabajador no justifico la falta se le descuenta el dia</p>
+
+         <p>2.-Efcienecia en el trabajo tomando un porcentaje del 0.055% del sueldo.</p>
+
+         <p>3.-Estimulo por puntualidad y asistencia, aplicando un 0.062% sobre el sueldo.</p>
+
+         <p>4.-Cálculo de la prima vacacional.</p>
+
+         <p>5.-Cálculo del aguinaldo:</p>
+         <p>--Si el trabajador laboro menos de 1 año le corresponde la cantidad proporcional de los dias que si laboro.</p>
+         <p>--Si trabajo los 365 dias del año le corresponde 15 dias de pago por el salario diario.</p>
+
+         <p>6.-Horas Extra:</p>
+         <p>--Si trabaja de 1 a 9 horas se pagan dobles.</p>
+         <p>---A partir de la hora 10 se pagan triples.</p>
+   </ol>
+
+   <ol font color="white" face="arial" align="left">
+           <p> DEDUCCIONES</p>
+           <p>1.-ISR</p>
+           <p>Aplica un 16% sobre el sueldo.</p>
+
+           <p>2.-Seguro de cesantia en edad avanzada y vejez</p>
+           <p>Aplica un 7.7% sobre el sueldo. SCAV</p>
+
+           <p>3.-Seguro de invalidez y vida.</p>
+           <p>Se palica un 7.8 sobre el sueldo.</p>
+
+           <p>4.-Servicios sociales y culturales.</p>
+           <p>Se aplica un 6.2% sobre el sueldo</p>
+
+           <p>5.-Seguro de salud.</p>
+           <p>Se aplica un 4.2% sobre el sueldo.</p>
+
+           <p>6.-Fovissste.</p>
+           <p>Se aplica un 30% sobre el sueldo.</p>
+   </ol>
+ </article>
+ </section>
+<aside>
+ <blockquote >
+
+   <h1>CALCULO DE NÓMINA:</h1>
+   <h1> Por favor ingrese los siguientes datos </h1>
+   <br>
+       <label for="">Nombre del empleado:</label>
+       <br>
+       <input type="text" name="nombre">
+       <br>
+       <label for="">Edad del empleado:</label>
+       <br>
+       <input type="text" name="edad">
+       <br>
+       <label for="">Salario Diario:</label>
+       <br>
+       <input type="text" name="monto">
+       <br>
+       <label for="">Es o no invalido:</label>
+       <br>
+       <input type="text" name="Seguro">
+       <br>
+       <label for="">Días trabajados:</label>
+       <br>
+       <input type="text" name="diasT">
+       <br>
+       <label for="">Periodo laborado:</label>
+       <br>
+       <input type="text" name="antiguedad">
+       <br>
+       <label for="">Horas Extras Laborados:</label>
+       <br>
+       <input type="text" name="HorasX">
+       <br>
+       <label for="">Total de faltas:</label>
+       <br>
+       <input type="text" name="faltas">
+       <br>
+       <label for="">Dias de vacaciones:</label>
+       <br>
+       <input type="text" name="vacaciones">
+       <br>
+       <input type="submit" value="Calcular">
+       <br>
+ </blockquote>
+ </aside>
+
+
+<footer>
+ <div align= "center">
+<nav>
+<ul>
+   <li><a class="enlace-footer" href="examen.html">EXAMEN </a></li>
+</ul>
+</nav>
+</div>
+</footer>
+</div>
+ </body>
+</html>
